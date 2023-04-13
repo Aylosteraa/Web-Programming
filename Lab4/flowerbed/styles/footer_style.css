@@ -1,0 +1,306 @@
+/* Footer part starts */
+
+.footer {
+	background-color: #F7E4E6;
+	background-size: cover;
+}
+
+.footer__wrapper{
+	/* margin-left: 73px; */
+	display: flex;
+	align-items: space-between;
+	align-items: flex-start;
+	column-gap: 145px;
+}
+
+/* .footer__inform { */
+	/* width: 944px; */
+    /* padding-top: 71px; */
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* align-items: space-between; */
+	/* align-items: flex-start; */
+	/* column-gap: 160px;  */
+/* } */
+
+.footer p {
+	font-size: 16px;
+	line-height: 19px;
+	color: #77878B;
+}
+
+.client a {
+	font-size: 16px;
+	line-height: 19px;
+	color: #77878B;
+	text-decoration: none;
+}
+
+.footer .main__text {
+	color: #2F3537;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.client{
+	padding-top: 71px;
+	width: 189px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 9px;
+}
+
+.group {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 24px;
+}
+
+.brand__group {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 42px;
+}
+
+.contacts {
+	padding-top: 71px;
+	width: 190px;
+}
+
+.continue {
+	padding-top: 71px;
+	width: 245px;
+}
+
+.contacts, .continue {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.tele {
+	margin-top: 12px;
+}
+
+.email {
+	margin-top: 17px;
+}
+
+.time {
+	margin-top: 20px;
+}
+
+.location {
+	width: 245px;
+}
+
+.social {
+	margin-top: 54px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 11px;
+}
+
+.social__icons {
+	display: flex;
+	column-gap: 22px;
+}
+
+.addition {
+	width: 233px;
+	padding-top: 42px;
+	display: flex;
+	flex-direction: column;
+}
+
+.payment {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	column-gap: 11px;
+	margin-top: 34px;
+	margin-bottom: 76px;
+}
+
+/* Footer part ends */
+
+
+@media screen and (max-width: 1190px) {
+	.footer__wrapper{
+		column-gap: 50px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.footer__wrapper{
+		display: grid;
+		grid-template-columns: 245px 245px;
+		column-gap: none;
+	}
+
+	.addition {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.payment {
+		margin-bottom: 25px;
+	}
+
+	.social {
+		margin-bottom: 54px;
+	}
+	
+}
+
+@media screen and (max-width: 720px) {
+	.footer__wrapper{
+		display: grid;
+		grid-template-columns: 245px 245px;
+		column-gap: 10px;
+	}
+
+	.addition {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.payment {
+		margin-bottom: 25px;
+	}
+
+	.social {
+		margin-bottom: 54px;
+	}
+	
+}
+
+@media screen and (max-width: 540px) {
+	.footer__wrapper{
+		padding-top: 25px;
+		display: grid;
+		grid-template-columns: 126px 153px;
+		column-gap: 10px;
+		padding-bottom: 49px;
+	}
+	
+	.footer p {
+		font-size: 11px;
+		line-height: 13px;
+	}
+	
+	.footer_logo {
+		display: none;
+	}
+
+	.social {
+		margin-bottom: 0;
+	}
+
+	.social__icons img {
+		width: 25px;
+		height: 25px;
+	}
+
+	.client a {
+		font-size: 11px;
+		line-height: 13px;
+	}
+	
+	.client{
+		padding-top: 0;
+		width: 126px;
+		row-gap: 5px;
+	}
+	
+	.group {
+		column-gap: 6px;
+	}
+	
+	.brand__group {
+		margin-top: 8px;
+	}
+	
+	.contacts {
+		width: 119px;
+	}
+	
+	.continue {
+		width: 153px;
+	}
+	
+	.contacts, .continue {
+		padding-top: 43px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.group img {
+		width: 15px;
+		height: 15px;
+	}
+	
+	.tele {
+		margin-top: 7px;
+	}
+	
+	.email {
+		margin-top: 4px;
+	}
+	
+	.time {
+		margin-top: 3px;
+	}
+	
+	.location {
+		width: 153px;
+	}
+	
+	.social {
+		margin-top: 23px;
+		row-gap: 2px;
+	}
+	
+	.social__icons {
+		column-gap: 11px;
+	}
+	
+	.addition {
+		padding-top: 0;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		padding-left: 35px;
+	}
+	
+	.payment {
+		width: 119px;
+		column-gap: 12px;
+		margin-top: 16px;
+		margin-bottom: 0;
+	}
+
+	.master {
+		width: 37px;
+		height: 30px;
+	}
+
+	.visa {
+		width: 68px;
+		height: 45px;
+	}
+}
