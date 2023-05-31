@@ -1,0 +1,65 @@
+body {
+    background-color: #FCFCFC;
+}
+
+body * {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main {
+    margin: 150px 75px 100px;
+}
+h1{
+    font-size: 40px;
+    color: #2F3537;
+    line-height: 75px;
+}
+
+.image, .image img{
+    width: 150px;
+    height: 150px;
+}
+.cart__list{
+    padding-top: 35px;
+}
+.title a {
+    font-size: 16px;
+    line-height: 23px;
+    color: #77878B;
+    text-decoration: none;
+}
+.del__btn button {
+    width: 100px;
+    height: 35px;
+    background: #A27C91;
+    border-left: 1px solid #3C2A34;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F3537;
+}
+
+.new__price {
+    font-size: 20px;
+    line-height: 29px;
+    color: #3C2A34;
+}
+
+.old__price {
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration-line: line-through;
+    color: #77878B;
+}
+.group_price span {
+    font-size: 20px;
+    line-height: 29px;
+    color: #77878B;
+}
+
+.group {
+
+}
+
+
